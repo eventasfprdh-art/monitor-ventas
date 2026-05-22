@@ -821,9 +821,9 @@ chartInstance = new Chart(document.getElementById('chart'), {
   data: {
     labels: ['00','02','04','06','08','10','12','14','16','18','20','22'],
     datasets: [
-      {label:'Hoy',  data:LIVE_DATA.chartHoy,  borderColor:'#3483FA', borderWidth:2.5, tension:.4, spanGaps:false,
+      {label:'Hoy',  data:EMPTY_DATA.chartHoy,  borderColor:'#3483FA', borderWidth:2.5, tension:.4, spanGaps:false,
        pointBackgroundColor:'#3483FA', pointRadius:[0,0,0,0,0,0,6,0,0,0,0,0], pointHoverRadius:5},
-      {label:'Ayer', data:LIVE_DATA.chartAyer, borderColor:'#E40082', borderWidth:2,   tension:.4,
+      {label:'Ayer', data:EMPTY_DATA.chartAyer, borderColor:'#E40082', borderWidth:2,   tension:.4,
        pointRadius:0, pointHoverRadius:4},
     ]
   },
